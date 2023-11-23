@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "135037697911",
+    "project_id": "mudanzaya-ddcd5",
+    "storage_bucket": "mudanzaya-ddcd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135037697911:android:60b282949d901364672b72",
+        "android_client_info": {
+          "package_name": "com.lasthuman.mudanzaya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKXGIWIFTKp4lPrVqQzI0u8ti9x-puaeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
