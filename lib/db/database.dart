@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mudanzaya/components/data_user.dart';
+import 'package:mudanzaya/models/data_user.dart';
 import 'package:sqflite/sqflite.dart'
     show Database, getDatabasesPath, openDatabase;
 // ignore: depend_on_referenced_packages
@@ -37,10 +37,10 @@ class SQLdb {
     try {
       Map<String, dynamic> dataMap = campos ?? data.tomap();
       await mydb!.insert("usuario", dataMap);
-      return true; // La inserción fue exitosa
+      return true; 
     } catch (e) {
       debugPrint("Error al insertar usuario: $e");
-      return false; // La inserción falló
+      return false;
     }
   }
 

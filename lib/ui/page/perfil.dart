@@ -13,16 +13,18 @@ class Perfil extends StatefulWidget {
 }
 
 class _PerfilState extends State<Perfil> {
-  Controller controller = Get.put(Controller());
+  final controller = Get.put(Controller());
 
   @override
   void initState() {
+    debugPrint(controller.emailuser.value);
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: Colors.transparent,
       body: Container(
         width: double.infinity,
@@ -42,6 +44,10 @@ class _PerfilState extends State<Perfil> {
             } else if (snapshot.data == null) {
               return const PerfilVacio();
             } else {
+              controller.nombreuser(snapshot.data!.displayName);
+              controller.imagenPath(snapshot.data!.photoURL);
+              controller.emailuser(snapshot.data!.email);
+              controller.tokenuser(snapshot.data!.getIdToken().toString());
               return const PerfilSuccess();
             }
           },

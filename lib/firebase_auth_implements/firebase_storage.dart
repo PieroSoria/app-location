@@ -10,9 +10,10 @@ class FirebaseStorageService {
     final String namefile = image.path.split("/").last;
     Reference ref = storage.ref().child("Imagenes").child(namefile);
     final UploadTask uploadTask = ref.putFile(image);
-    final TaskSnapshot snapshot = await uploadTask.whenComplete(() => true);
-    final String url = await snapshot.ref.getDownloadURL();
-    debugPrint(url);
-    return url;
+    final TaskSnapshot snapshot = await uploadTask.whenComplete(() => String);
+    final String urlfinal = await snapshot.ref.getDownloadURL();
+    debugPrint(urlfinal);
+
+    return urlfinal;
   }
 }

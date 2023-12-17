@@ -44,38 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAxlHA3dqbmm5q2CsGlWdH5JLv2qSECs4s',
-    appId: '1:135037697911:web:58a33d0d9efce2f4672b72',
-    messagingSenderId: '135037697911',
-    projectId: 'mudanzaya-ddcd5',
-    authDomain: 'mudanzaya-ddcd5.firebaseapp.com',
-    storageBucket: 'mudanzaya-ddcd5.appspot.com',
-    measurementId: 'G-KYHMQN1EGN',
+    apiKey: 'AIzaSyAK8qJlQDRdbaJQOiAnZTC1OzvUa81tgWw',
+    appId: '1:762873281931:web:870c99549a11c07958438e',
+    messagingSenderId: '762873281931',
+    projectId: 'mudanzaya-3b7d0',
+    authDomain: 'mudanzaya-3b7d0.firebaseapp.com',
+    storageBucket: 'mudanzaya-3b7d0.appspot.com',
+    measurementId: 'G-5PF2N6JBDZ',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCKXGIWIFTKp4lPrVqQzI0u8ti9x-puaeo',
-    appId: '1:135037697911:android:60b282949d901364672b72',
-    messagingSenderId: '135037697911',
-    projectId: 'mudanzaya-ddcd5',
-    storageBucket: 'mudanzaya-ddcd5.appspot.com',
+    apiKey: 'AIzaSyBiRvVaH4XQHumz2yXnaCOCYhrtU48bP_0',
+    appId: '1:762873281931:android:93754adac68a36e058438e',
+    messagingSenderId: '762873281931',
+    projectId: 'mudanzaya-3b7d0',
+    storageBucket: 'mudanzaya-3b7d0.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDWLHyIgX6ueJfivTqx-_J0bIRGE4mfq5g',
-    appId: '1:135037697911:ios:49e3e9bf6bf40cb2672b72',
-    messagingSenderId: '135037697911',
-    projectId: 'mudanzaya-ddcd5',
-    storageBucket: 'mudanzaya-ddcd5.appspot.com',
+    apiKey: 'AIzaSyDbDUUmrAh2dCncQq-kNe5ASldfmYxnC-M',
+    appId: '1:762873281931:ios:a9794f5d459da24658438e',
+    messagingSenderId: '762873281931',
+    projectId: 'mudanzaya-3b7d0',
+    storageBucket: 'mudanzaya-3b7d0.appspot.com',
     iosBundleId: 'com.lasthuman.mudanzaya',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDWLHyIgX6ueJfivTqx-_J0bIRGE4mfq5g',
-    appId: '1:135037697911:ios:caff957ec8ab8d66672b72',
-    messagingSenderId: '135037697911',
-    projectId: 'mudanzaya-ddcd5',
-    storageBucket: 'mudanzaya-ddcd5.appspot.com',
+    apiKey: 'AIzaSyDbDUUmrAh2dCncQq-kNe5ASldfmYxnC-M',
+    appId: '1:762873281931:ios:01a768748e74afe558438e',
+    messagingSenderId: '762873281931',
+    projectId: 'mudanzaya-3b7d0',
+    storageBucket: 'mudanzaya-3b7d0.appspot.com',
     iosBundleId: 'com.lasthuman.mudanzaya.RunnerTests',
   );
 }

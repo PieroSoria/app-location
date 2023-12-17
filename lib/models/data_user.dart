@@ -1,14 +1,13 @@
 import 'package:firebase_auth/firebase_auth.dart';
 
 class UserData {
-  String nombre, apellido, email,password, token, urlfoto, status;
+  String nombre, apellido, email, password, token, urlfoto;
   UserData(
       {required this.nombre,
       required this.apellido,
       required this.email,
       required this.password,
       required this.token,
-      required this.status,
       required this.urlfoto});
   Map<String, dynamic> tomap() {
     return {
@@ -18,7 +17,6 @@ class UserData {
       'password': password,
       'token': token,
       'urlfoto': urlfoto,
-      'status': status
     };
   }
 
@@ -30,7 +28,6 @@ class UserData {
       password: map['password'] ?? '',
       token: map['token'] ?? '',
       urlfoto: map['urlfoto'] ?? '',
-      status: map['status'] ?? '',
     );
   }
 }

@@ -44,11 +44,12 @@ class _BotomsheetState extends State<Botomsheet> {
                         Navigator.of(context).pop();
                         bool result = await controller.getImagen(0);
                         if (result) {
+                          
                           controller.iniciarEscuchaAutenticacion();
                           Get.snackbar(
                               "Exito", "Se actualizo su foto de perfil");
                         } else {
-                          controller.iniciarEscuchaAutenticacion();
+                          // controller.iniciarEscuchaAutenticacion();
                           Get.snackbar("Error",
                               "Ocurrio un problema! intentelo mas tarde!!");
                         }

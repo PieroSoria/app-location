@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:mudanzaya/components/data_user.dart';
+import 'package:mudanzaya/models/data_user.dart';
 
 class ApiConnection {
   Future<bool> iniciarsession(String email, String password) async {

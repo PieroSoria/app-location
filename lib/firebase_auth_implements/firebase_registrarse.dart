@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mudanzaya/components/data_user.dart';
+import 'package:mudanzaya/models/data_user.dart';
 import 'package:mudanzaya/components/input_form.dart';
 import 'package:mudanzaya/firebase_auth_implements/firebase_auth.dart';
 import 'package:mudanzaya/firebase_auth_implements/firebase_storage.dart';
@@ -54,7 +54,6 @@ class _SignUpState extends State<SignUp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Column(
@@ -113,7 +112,7 @@ class _SignUpState extends State<SignUp> {
                                   email: email.text,
                                   password: password.text,
                                   token: '',
-                                  status: '',
+                                 
                                   urlfoto: '');
                               // bool result = await conex.crearusuario(data);
 
